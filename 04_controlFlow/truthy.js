@@ -30,3 +30,12 @@ if(Object.keys(emptyObj).length === 0){
 const iceteaPrice = 100
 
 iceteaPrice >= 80 ? console.log("less than 100") : console.log("greater than 100");
+
+
+//Nullish Coalescing Operator (??): null undefined
+
+let val1;
+//val1 = 5 ?? 10
+//val1 = null ?? 10
+// val1 = undefined ?? 15
+val1 = nul ?? 10 ?? 20
